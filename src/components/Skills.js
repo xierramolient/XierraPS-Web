@@ -81,7 +81,7 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Online Games Played</h2>
+                        <h6>Online Games Played</h6>
                         <p>玩過的遊戲列表 PC/iOS/PS3/PS4（在線）</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
@@ -214,7 +214,7 @@ export const Skills = () => {
                     </div>
                 </div>
                     <div className="skill-bx wow zoomIn">
-                        <h2>Offline Games Played</h2>
+                        <h6>Offline Games Played</h6>
                         <p>玩過的遊戲列表 PC/iOS/PS3/PS4（離線）</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
 							<div className="item">
@@ -377,28 +377,30 @@ export const Skills = () => {
             </div>
         </div>
 		<div className="skill-bx wow zoomIn">
-                        <h2>Xierra's PC Specs :</h2>
-						<h1>MOTHERBOARD : MSI MPG Z690 LGA1700</h1>
-						<h1>CPU : Intel Core i9-12900K CPU @ 5.2GHz</h1>
-						<h1>COOLER : NZXT Kraken Z73 RGB</h1>
-						<h1>GPU0 : Intel UHD Graphics 770</h1>
-						<h1>GPU1 : MSI GeForce RTX 3090 Ti GAMING X TRIO</h1>
-						<h1>RAM 1 : CORSAIR VENGEANCE RGB RS 16GB DDR4</h1>
-						<h1>RAM 2 : CORSAIR VENGEANCE RGB RS 16GB DDR4</h1>
-						<h1>STORAGE 1 : Samsung 980 PRO M.2 2TB SSD</h1>
-						<h1>STORAGE 2 : SEAGATE BARRACUDA 8TB HARDISK</h1>
-						<h1>PSU : ROG THOR 850WATT 80 Platinum</h1>
-						<h1>MONITOR : Samsung Odyyssey Neo G9</h1>
-						<h1>HEADPHONES : ROG Centurion</h1>
-						<h1>KEYBOARD : SteelSeries Apex Pro (Mechanical)</h1>
+                        <h6>Xierra's PC Specs :</h6>
+												<h2>⠀</h2>
+						<h4>MOTHERBOARD : MSI MPG Z690 LGA1700</h4>
+						<h4>CPU : Intel Core i9-12900K CPU @ 5.2GHz</h4>
+						<h4>COOLER : NZXT Kraken Z73 RGB</h4>
+						<h4>GPU0 : Intel UHD Graphics 770</h4>
+						<h4>GPU1 : MSI GeForce RTX 3090 Ti GAMING X TRIO</h4>
+						<h4>RAM 1 : CORSAIR VENGEANCE RGB RS 16GB DDR4</h4>
+						<h4>RAM 2 : CORSAIR VENGEANCE RGB RS 16GB DDR4</h4>
+						<h4>STORAGE 1 : Samsung 980 PRO M.2 2TB SSD</h4>
+						<h4>STORAGE 2 : SEAGATE BARRACUDA 8TB HARDISK</h4>
+						<h4>PSU : ROG THOR 850WATT 80 Platinum</h4>
+						<h4>MONITOR : Samsung Odyyssey Neo G9</h4>
+						<h4>HEADPHONES : ROG Centurion</h4>
+						<h4>KEYBOARD : SteelSeries Apex Pro (Mechanical)</h4>
 						<h2>⠀</h2>
-						<h2>Devices :</h2>
-						<h1>Phone 1 : POCO F4 GT 256GB/12GB (Snapdragon 8 Gen 1)</h1>
-						<h1>Phone 2 : iPhone 11 Pro Max 64GB</h1>
-						<h1>Console 1 : PlayStation 3 (500GB)</h1>
-						<h1>Console 2 : PlayStation 4 (1TB)</h1>
-						<h1>Console 3 : XBOX Series X (2TB)</h1>
-						<h1>Laptop : ASUS TUF A16</h1>
+						<h6>Devices :</h6>
+												<h2>⠀</h2>
+						<h4>Phone 1 : POCO F4 GT 256GB/12GB (Snapdragon 8 Gen 1)</h4>
+						<h4>Phone 2 : iPhone 11 Pro Max 64GB</h4>
+						<h4>Console 1 : PlayStation 3 (500GB)</h4>
+						<h4>Console 2 : PlayStation 4 (1TB)</h4>
+						<h4>Console 3 : XBOX Series X (2TB)</h4>
+						<h4>Laptop : ASUS TUF A16</h4>
         </div>
         <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
